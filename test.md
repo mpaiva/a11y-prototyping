@@ -41,3 +41,15 @@ You have a list of 5 people - sorted alphabetically:
 <label for="name">Name (4 to 8 characters):</label>
 
 <input type="text" id="name" name="name" required minlength="4" maxlength="8" size="10">
+
+- type: dropdown
+    id: Level
+    attributes:
+      label: What kind of level is this tip?
+      description: What level of developer do you tthink this tip is aimed at?
+      options:
+        - Beginner
+        - Intermediate
+        - Advanced
+    validations:
+      required: true
